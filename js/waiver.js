@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     var figureArray = document.getElementsByTagName("figure");
     for(let i = 0; i<figureArray.length;i++){
-        figures[i].classList.add("one-third");
+        figureArray[i].classList.add("one-third");
     }
 
     document.getElementsByTagName("footer")[0].addEventListener("click", function(){
