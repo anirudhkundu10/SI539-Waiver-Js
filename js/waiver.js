@@ -33,6 +33,6 @@ document.addEventListener("DOMContentLoaded", function(){
 
     capOne.addEventListener("blur", function(){
         capOne.style.fontFamily = "Times";
-    })
+    });
 
 });
